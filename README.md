@@ -26,6 +26,14 @@ yarn dev
 pnpm dev
 # or
 bun dev
+
+
+.env.development.local
+
+WORKOS_REDIRECT_URI=http://localhost:3000/callback
+WORKOS_COOKIE_PASSWORD=
+WORKOS_CLIENT_ID=
+WORKOS_API_KEY=
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
